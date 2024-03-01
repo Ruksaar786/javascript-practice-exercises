@@ -2,10 +2,15 @@
 // the string with its last vowel removed. Vowels are the letters a, e, i, o, u
 
 function removeLastVowel(str) {
+  let newStr = "";
   const vowels = "aeiou";
   for (let i = str.length - 1; i >= 0; i--) {
-    if (vowels.includes(str[i])) {
-      return str.slice(0, i) + str.slice(i + 1);
+    let char = str[i];
+    if (vowels.includes(char)) {
+      let first = str.slice(0, i);
+      let second = str.slice(i + 1);
+
+      return first + second;
     }
   }
   return str;
