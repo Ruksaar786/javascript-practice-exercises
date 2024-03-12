@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  background-color: teal;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+button {
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  margin-left: 10px;
+  background-color: teal;
+}
