@@ -44,7 +44,7 @@ function updateTodo(e) {
   let ubtn = document.createElement("button");
   ubtn.textContent = "saveUpdate";
   ubtn.id = "updateId";
-  ubtn.onclick = saveTodo;
+  ubtn.onclick = saveToDo;
   let form = document.getElementById("form");
   form.append(ubtn);
 }

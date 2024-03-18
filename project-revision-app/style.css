@@ -11,15 +11,15 @@
 }
 
 h1 {
-  background-color: rgb(189, 129, 232);
-  padding: 10px;
+  background-color: cadetblue;
   text-align: center;
+  padding: 10px;
   border-radius: 12px;
   color: white;
 }
 
 .view {
-  border: 2px solid red;
+  border: 2px solid green;
   margin-top: 20px;
   font-size: 18px;
 }
